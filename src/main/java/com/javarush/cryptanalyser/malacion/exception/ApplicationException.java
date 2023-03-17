@@ -1,4 +1,4 @@
-package com.javarush.cryptanalyzer.malacion.exception;
+package com.javarush.cryptanalyser.malacion.exception;
 
 public class ApplicationException extends RuntimeException{
     public ApplicationException() {

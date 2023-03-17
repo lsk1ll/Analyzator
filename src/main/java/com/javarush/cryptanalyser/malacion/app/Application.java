@@ -1,13 +1,13 @@
-package com.javarush.cryptanalyzer.malacion.app;
+package com.javarush.cryptanalyser.malacion.app;
 
-import com.javarush.cryptanalyzer.malacion.controller.MainController;
-import com.javarush.cryptanalyzer.malacion.entity.Result;
-import com.javarush.cryptanalyzer.malacion.repository.FunctionCode;
-import com.javarush.cryptanalyzer.malacion.services.Function;
+import com.javarush.cryptanalyser.malacion.controller.MainController;
+import com.javarush.cryptanalyser.malacion.entity.Result;
+import com.javarush.cryptanalyser.malacion.repository.FunctionCode;
+import com.javarush.cryptanalyser.malacion.services.Function;
 
 import java.io.IOException;
 
-import static com.javarush.cryptanalyzer.malacion.constants.FunctionCodeConstants.*;
+import static com.javarush.cryptanalyser.malacion.constants.FunctionCodeConstants.*;
 
 public class Application {
     private final MainController mainController;
@@ -15,7 +15,7 @@ public class Application {
         this.mainController = mainController;
     }
 
-    public Result run() throws IOException {
+    public Result run() {
         String[] parameters =  mainController.getView().getParameters();
         String mode = parameters[0];
         Function function = getFunction(mode);

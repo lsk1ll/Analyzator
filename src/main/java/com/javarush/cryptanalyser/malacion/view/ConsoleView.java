@@ -1,4 +1,4 @@
-package com.javarush.cryptanalyzer.malacion.view;
+package com.javarush.cryptanalyser.malacion.view;
 
 import java.util.Scanner;
 
@@ -20,11 +20,15 @@ public class ConsoleView implements View {
                 System.out.println("file for input:");
                 parameters[1] = console.nextLine();
 
-                System.out.println("file for output:");
+                if (parameters[1].isEmpty()) {
+                    parameters[1] = "input.txt";
+                }
+
+                System.out.println("file for encoded txt:");
                 parameters[2] = console.nextLine();
 
                 if (parameters[2].isEmpty()) {
-                    parameters[2] = "D:/standard output.txt";
+                    parameters[2] = "encoded.txt";
                 }
                 System.out.println("shift for encodeCaesar");
                 parameters[3] = console.nextLine();
@@ -37,11 +41,15 @@ public class ConsoleView implements View {
                 System.out.println("file for input:");
                 parameters[1] = console.nextLine();
 
+                if (parameters[1].isEmpty()) {
+                    parameters[1] = "input.txt";
+                }
+
                 System.out.println("file for output:");
                 parameters[2] = console.nextLine();
 
                 if (parameters[2].isEmpty()) {
-                    parameters[2] = "D:/standard output.txt";
+                    parameters[2] = "output.txt";
                 }
                 System.out.println("shift for decodeCaesar");
                 parameters[3] = console.nextLine();
@@ -53,10 +61,13 @@ public class ConsoleView implements View {
             case "3" -> {
                 System.out.println("file for encoded text:");
                 parameters[1] = console.nextLine();
+                if (parameters[1].isEmpty()) {
+                    parameters[1] = "input.txt";
+                }
                 System.out.println("file for output:");
                 parameters[2] = console.nextLine();
                 if (parameters[2].isEmpty()) {
-                    parameters[2] = "D:/standard output.txt";
+                    parameters[2] = "output.txt";
                 }
             }
         }

@@ -1,4 +1,4 @@
-package com.javarush.cryptanalyzer.malacion.constants;
+package com.javarush.cryptanalyser.malacion.constants;
 
 public class FunctionCodeConstants {
     public static final String ENCODE = "ENCODE";

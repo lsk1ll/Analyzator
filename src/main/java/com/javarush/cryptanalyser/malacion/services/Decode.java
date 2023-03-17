@@ -1,10 +1,10 @@
-package com.javarush.cryptanalyzer.malacion.services;
+package com.javarush.cryptanalyser.malacion.services;
 
 
-import com.javarush.cryptanalyzer.malacion.constants.CryptanalyzerAlphabet;
-import com.javarush.cryptanalyzer.malacion.entity.Result;
-import com.javarush.cryptanalyzer.malacion.exception.ApplicationException;
-import com.javarush.cryptanalyzer.malacion.repository.ResultCode;
+import com.javarush.cryptanalyser.malacion.constants.CryptanalyzerAlphabet;
+import com.javarush.cryptanalyser.malacion.entity.Result;
+import com.javarush.cryptanalyser.malacion.exception.ApplicationException;
+import com.javarush.cryptanalyser.malacion.repository.ResultCode;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

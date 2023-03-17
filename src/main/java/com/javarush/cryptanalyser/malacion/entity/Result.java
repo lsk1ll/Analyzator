@@ -1,7 +1,7 @@
-package com.javarush.cryptanalyzer.malacion.entity;
+package com.javarush.cryptanalyser.malacion.entity;
 
-import com.javarush.cryptanalyzer.malacion.exception.ApplicationException;
-import com.javarush.cryptanalyzer.malacion.repository.ResultCode;
+import com.javarush.cryptanalyser.malacion.exception.ApplicationException;
+import com.javarush.cryptanalyser.malacion.repository.ResultCode;
 
 public class Result {
     private ResultCode resultCode;

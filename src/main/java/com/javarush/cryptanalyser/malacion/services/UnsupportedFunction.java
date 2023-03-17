@@ -1,6 +1,6 @@
-package com.javarush.cryptanalyzer.malacion.services;
+package com.javarush.cryptanalyser.malacion.services;
 
-import com.javarush.cryptanalyzer.malacion.entity.Result;
+import com.javarush.cryptanalyser.malacion.entity.Result;
 
 public class UnsupportedFunction implements  Function{
 

@@ -1,6 +1,6 @@
-package com.javarush.cryptanalyzer.malacion.controller;
+package com.javarush.cryptanalyser.malacion.controller;
 
-import com.javarush.cryptanalyzer.malacion.view.View;
+import com.javarush.cryptanalyser.malacion.view.View;
 
 public class MainController {
     View view;

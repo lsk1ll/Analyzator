@@ -1,10 +1,10 @@
-package com.javarush.cryptanalyzer.malacion;
+package com.javarush.cryptanalyser.malacion;
 
-import com.javarush.cryptanalyzer.malacion.app.Application;
-import com.javarush.cryptanalyzer.malacion.controller.MainController;
-import com.javarush.cryptanalyzer.malacion.entity.Result;
-import com.javarush.cryptanalyzer.malacion.view.ConsoleView;
-import com.javarush.cryptanalyzer.malacion.view.View;
+import com.javarush.cryptanalyser.malacion.app.Application;
+import com.javarush.cryptanalyser.malacion.controller.MainController;
+import com.javarush.cryptanalyser.malacion.entity.Result;
+import com.javarush.cryptanalyser.malacion.view.ConsoleView;
+import com.javarush.cryptanalyser.malacion.view.View;
 
 
 import java.io.IOException;
