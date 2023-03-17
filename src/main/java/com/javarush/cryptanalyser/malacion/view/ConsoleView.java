@@ -71,7 +71,7 @@ public class ConsoleView implements View {
                 }
             }
         }
-
+        console.close();
         return parameters;
     }
 }
